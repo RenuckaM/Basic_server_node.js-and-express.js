@@ -48,7 +48,17 @@ This project demonstrates how to create a basic server using Node.js and Express
 
 ### `app.js` (Express.js Server)
 
-*Screenshot of app.js code*
+*In Command Prompt*
+
+![image](https://github.com/user-attachments/assets/c6c6476e-9cea-46d7-8383-58c5bb1f1b62)
+
+*In Browser*
+
+![image](https://github.com/user-attachments/assets/7f7dbb6e-0b3c-4379-ab67-dea1a1832bc9)
+
+*In Browser - Login Page*
+
+![image](https://github.com/user-attachments/assets/8b3e34ba-2332-404d-b376-997f473d5177)
 
 ## Usage
 1. **Start the Express server:**
