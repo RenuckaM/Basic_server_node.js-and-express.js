@@ -2,7 +2,7 @@
 This project demonstrates how to create a basic server using Node.js and Express.js. It provides a simple API that can be extended for more functionality.
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or later)
+- [Node.js] (https://nodejs.org/) (v14 or later)
 - npm (Node Package Manager)
 
 ## Installation
@@ -29,51 +29,19 @@ This project demonstrates how to create a basic server using Node.js and Express
 
 ## File Structure
 ```
-.
+
 ├── app.js         # Express server file
 └── index.js       # Basic Node.js server file
 ```
 
-## Code Snippets
+## Code Snapshots
 
 ### `index.js` (Node.js Server)
-```javascript
-import { createServer } from 'node:http';
 
-const hostname = "127.0.0.1"
-const port = 3000
-
-const server = createServer (function(req, res){
-    res.statusCode = 200;
-    res.setHeader("Content-Type","text/plain")
-    res.end("Hello World!");
-})
-
-server.listen(port, hostname, function(){
-    console.log('Server is listening');
-})
-```
 *Screenshot of index.js code*
 
 ### `app.js` (Express.js Server)
-```javascript
-import express from "express"
 
-const app = express()
-const port = 3000
-
-app.get("/",(req,res)=> {
-    res.send("Hello World!")
-})
-
-app.get("/login", (req, res) => {
-    res.send("Login to your account")
-})
-
-app.listen(port, () => {
-    console.log("Server is running!!!")
-})
-```
 *Screenshot of app.js code*
 
 ## Usage
