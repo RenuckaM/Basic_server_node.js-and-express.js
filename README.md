@@ -39,11 +39,12 @@ This project demonstrates how to create a basic server using Node.js and Express
 ### `index.js` (Node.js Server)
 
 *In Command Prompt*
+
 ![image](https://github.com/user-attachments/assets/0263336d-a058-415a-af23-6bdcc1cc6778)
 
 *In Browser*
-![image](https://github.com/user-attachments/assets/643f5f13-b9c9-4845-b448-59c68e7c37ed)
 
+![image](https://github.com/user-attachments/assets/643f5f13-b9c9-4845-b448-59c68e7c37ed)
 
 ### `app.js` (Express.js Server)
 
