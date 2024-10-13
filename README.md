@@ -39,6 +39,8 @@ This project demonstrates how to create a basic server using Node.js and Express
 ### `index.js` (Node.js Server)
 
 *Screenshot of index.js code*
+![image](https://github.com/user-attachments/assets/643f5f13-b9c9-4845-b448-59c68e7c37ed)
+
 
 ### `app.js` (Express.js Server)
 
